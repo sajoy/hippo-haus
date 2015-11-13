@@ -4,10 +4,10 @@
   -webkit-font-smooth: never; }
 
 body {
-  background: #222;
-  color: #666;
+  background: url("https://s3.amazonaws.com/images.seroundtable.com/google-holiday-party-gif-1386680501.gif");
+  background-size: 100%;
+  color: #CCC;
   font-family: "VT323", monospace;
-  background-image: url('https://s3.amazonaws.com/images.seroundtable.com/google-holiday-party-gif-1386680501.gif');
   padding: 30px 60px; }
   body h1, body h2, body h4 {
     margin: 0; }
@@ -18,11 +18,14 @@ body {
   body h2 {
     font-size: 6rem; }
   body h4 {
-    font-size: 2rem; }
+    font-size: 2rem;
+    background: linear-gradient(90deg, yellow, transparent);
+    color: hotpink; }
   body p, body label {
     font-size: 2rem; }
   body section.form {
     background: purple;
+    background-blend-mode: multiply;
     color: #222;
     margin: 0 auto;
     padding: 30px;
