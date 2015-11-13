@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html ng-app="appname">
+<head>
+
+    <meta charset="utf-8"/>
+</head>
+<body>
+
+<!--Beginning of Guestbook-->
+<section ng-controller="appCtrl as haus">
+<!-- Prints out the reviewa-->
+<ul class="list-group">
+    <li class="list-group-item" ng-repeat="review in haus.reviews">
+        <h3><b>{{review.author}} says: </b>"{{review.body}}"</h3>
+        <h4>{{review.hippos}}<b> hippos</b></h4>
+ </li>
+</ul>
+
+<!-- form to add contact-->
+<form name="addReview" ng-controller="AddCtrl as addCtrl"
+      ng-submit="addCtrl.addReview(review)" novalidate>
+    <h4>
+        Review your experience with the H.I.P.P.O.
+    </h4>
+    <blockquote>
+        <h3><b>{{addCtrl.review.author}} says:</b> "{{addCtrl.review.body}}"</h3>
+        <h4>{{addCtrl.review.author}}<b> hippos</b></h4>
+
+    </blockquote>
+<div class="input-group">
+   <label>Review</label> <input ng-model="addCtrl.review.body"/>
+   <label>By: </label> <input ng-model="addCtrl.review.author"/>
+    <select ng-model="reviewCtrl.review.hippos" required>
+                        <option value="1">1 hippo</option>
+                        <option value="2">2 hippos</option>
+                        <option value="3">3 hippos</option>
+                        <option value="4">4 hippos</option>
+                        <option value="5">5 hippos</option>
+                    </select>
+    </div>
+    <input type="submit" value="Submit"/>
+</form>
+</section>
+<!--End of Guestbook-->
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+<script type="text/javascript" src="js/guestbook.js"></script>
+</html>
