@@ -4,6 +4,7 @@
   -webkit-font-smooth: never; }
 
 body {
+  background: #222;
   background: url("https://s3.amazonaws.com/images.seroundtable.com/google-holiday-party-gif-1386680501.gif");
   background-size: 100%;
   color: #CCC;
@@ -26,7 +27,7 @@ body {
   body section.form {
     background: purple;
     background-blend-mode: multiply;
-    color: #222;
+    color: hotpink;
     margin: 0 auto;
     padding: 30px;
     width: 50%; }
