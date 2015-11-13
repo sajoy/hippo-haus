@@ -1,6 +1,6 @@
 $vt: 'VT323', monospace;
 
-* { 
+* {
 	box-sizing: border-box;
 	font-smooth: never;
 	-webkit-font-smooth: never;
@@ -10,17 +10,51 @@ body {
 	background: #222;
 	color: #666;
 	font-family: $vt;
-	padding: 30px;
+	padding: 30px 60px;
 
-	h1, h4 { margin: 0; }
+	h1, h2, h4 { margin: 0; }
 
-	h1 { 
-		color: white; 
+	h1 {
+		color: white;
 		font-size: 9rem;
 		text-align: center;
+	}
+
+<<<<<<< HEAD
+	h4 {
+		font-size: 2rem;
+	}
+}
+=======
+	h2 { 
+		font-size: 6rem;
 	}
 
 	h4 { 
 		font-size: 2rem;
 	}
+
+	p, label { font-size: 2rem; }
+
+	section {
+		&.form {
+			background: purple;
+			color: #222;
+			margin: 0 auto;
+			padding: 30px;
+			width: 50%;
+
+			div {
+				margin-top: 30px;
+			}
+
+			input[type="submit"] {
+				background: white;
+				color: #222;
+				margin-top: 30px;
+				zoom: 200%;
+			}
+		}
+	}
 }
+>>>>>>> efed47c88ad27516a3744f115e34e4e0f5749c68
