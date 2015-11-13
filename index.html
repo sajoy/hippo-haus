@@ -90,10 +90,12 @@
 
         <section class='guestbook'>
             <!--Beginning of Guestbook-->
+
 <section ng-controller="appCtrl as haus">
+    <h2>What the People Say: </h2>
 <!-- Prints out the reviewa-->
-<ul class="list-group">
-    <li class="list-group-item" ng-repeat="review in haus.reviews">
+<ul>
+    <li ng-repeat="review in haus.reviews">
         <h3><b>{{review.author}} says: </b>"{{review.body}}"</h3>
         <h4>{{review.hippos}}<b> hippos</b></h4>
  </li>
