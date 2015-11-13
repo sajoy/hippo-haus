@@ -8,12 +8,29 @@ body {
   color: #666;
   font-family: "VT323", monospace;
   background-image: url('https://s3.amazonaws.com/images.seroundtable.com/google-holiday-party-gif-1386680501.gif');
-  padding: 30px; }
-  body h1, body h4 {
+  padding: 30px 60px; }
+  body h1, body h2, body h4 {
     margin: 0; }
   body h1 {
     color: white;
     font-size: 9rem;
     text-align: center; }
+  body h2 {
+    font-size: 6rem; }
   body h4 {
     font-size: 2rem; }
+  body p, body label {
+    font-size: 2rem; }
+  body section.form {
+    background: purple;
+    color: #222;
+    margin: 0 auto;
+    padding: 30px;
+    width: 50%; }
+    body section.form div {
+      margin-top: 30px; }
+    body section.form input[type="submit"] {
+      background: white;
+      color: #222;
+      margin-top: 30px;
+      zoom: 200%; }
