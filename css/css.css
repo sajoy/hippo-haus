@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+  font-smooth: never;
+  -webkit-font-smooth: never; }
+
+body {
+  background: #222;
+  color: #666;
+  font-family: "VT323", monospace;
+  padding: 30px; }
+  body h1, body h4 {
+    margin: 0; }
+  body h1 {
+    color: white;
+    font-size: 9rem;
+    text-align: center; }
+  body h4 {
+    font-size: 2rem; }
