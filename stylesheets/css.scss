@@ -1,6 +1,6 @@
 $vt: 'VT323', monospace;
 
-* { 
+* {
 	box-sizing: border-box;
 	font-smooth: never;
 	-webkit-font-smooth: never;
@@ -14,13 +14,13 @@ body {
 
 	h1, h4 { margin: 0; }
 
-	h1 { 
-		color: white; 
+	h1 {
+		color: white;
 		font-size: 9rem;
 		text-align: center;
 	}
 
-	h4 { 
+	h4 {
 		font-size: 2rem;
 	}
 }
