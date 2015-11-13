@@ -7,8 +7,9 @@ $vt: 'VT323', monospace;
 }
 
 body {
-	background: #222;
-	color: #666;
+	background: url('https://s3.amazonaws.com/images.seroundtable.com/google-holiday-party-gif-1386680501.gif');
+	background-size: 100%;
+	color: #CCC;
 	font-family: $vt;
 	padding: 30px 60px;
 
@@ -19,19 +20,14 @@ body {
 		font-size: 9rem;
 		text-align: center;
 	}
-
-<<<<<<< HEAD
-	h4 {
-		font-size: 2rem;
-	}
-}
-=======
 	h2 { 
 		font-size: 6rem;
 	}
 
 	h4 { 
 		font-size: 2rem;
+		background: linear-gradient(90deg, yellow, transparent);
+		color: hotpink;
 	}
 
 	p, label { font-size: 2rem; }
@@ -39,6 +35,7 @@ body {
 	section {
 		&.form {
 			background: purple;
+			background-blend-mode: multiply;
 			color: #222;
 			margin: 0 auto;
 			padding: 30px;
@@ -57,4 +54,3 @@ body {
 		}
 	}
 }
->>>>>>> efed47c88ad27516a3744f115e34e4e0f5749c68
